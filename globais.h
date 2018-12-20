@@ -1,0 +1,35 @@
+extern Mix_Chunk* levelUp;
+extern Mix_Chunk* gameOver;
+extern const int SCREEN_WIDTH;
+extern const int SCREEN_HEIGHT;
+extern const int false;
+extern const int true;
+extern const int IMAGE_WIDTH;
+extern const int IMAGE_HEIGHT;
+extern SDL_Surface* gJPGBlocos1;
+extern SDL_Surface* gJPGBlocos2;
+extern SDL_Surface* gJPGBlocos3;
+extern BLOCO **blocos;
+extern BARRA barra;
+extern SDL_Surface* gJPGBar;
+extern SDL_Surface* gJPGGameOver;
+extern SDL_Surface* gPNGFundo;
+extern SDL_Surface* gPNGBack;
+extern SDL_Surface* gPNGOp;
+extern SDL_Surface* gPNGBackOp;
+extern SDL_Surface* gPNGVolumeMais;
+extern SDL_Surface* gPNGVolumeMenos;
+extern SDL_Surface* gPNGMenu;
+extern SDL_Surface* gPNGOpOn;
+extern SDL_Surface* gPNGRank;
+extern SDL_Surface* gPNGRankOn;
+extern SDL_Surface* gPNGInit;
+extern SDL_Surface* gPNGInitOn;
+extern SDL_Renderer* gRenderer;
+extern TTF_Font *gFont;
+extern PLAYER player;
+extern GAMESTATS game;
+extern char play;
+extern int volume;
+#endif
+
